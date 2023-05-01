@@ -88,5 +88,3 @@ resource "aws_instance" "jenkins_instance" {
   vpc_security_group_ids = [aws_security_group.jenkins_sg.id]
 }
 
-# Output the Jenkins server public IP address
-output "jenkins_server"
