@@ -25,7 +25,7 @@ resource "aws_ecs_cluster" "my_ecs_cluster" {
 
 # Create a Jenkins server
 resource "aws_instance" "jenkins_server" {
-  ami = "ami-0c55b159cbfafe1f0"
+  ami = "ami-007855ac798b5175e"
   instance_type = "t2.micro"
   key_name = "my-keypair"
   subnet_id = aws_subnet.my_subnet.id
