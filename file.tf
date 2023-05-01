@@ -53,7 +53,7 @@ resource "aws_ecs_cluster" "jenkins_cluster" {
 
 # Define the EC2 instance for the Jenkins server
 resource "aws_instance" "jenkins_instance" {
-  ami           = "ami-0c55b159cbfafe1f0"
+  ami           = "ami-007855ac798b5175e"
   instance_type = "t2.micro"
   key_name      = "my_key_pair"
   subnet_id     = aws_subnet.jenkins_subnet_a.id
