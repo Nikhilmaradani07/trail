@@ -89,4 +89,4 @@ resource "aws_instance" "jenkins_instance" {
 }
 
 # Output the Jenkins server public IP address
-output "jenkins_server
+output "jenkins_server"
